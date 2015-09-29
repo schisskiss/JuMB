@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JuMB</string>
+    <string name="name">Nutzername</string>
+    <string name="passwd">Passwort</string>
+    <string name="login">Einloggen</string>
+    <string name="title">Beitrags Titel</string>
+    <string name="content">Beitrag</string>
+    <string name="post">Beitrag veröffentlichen</string>
+    <string name="end">Beenden</string>
+    <string name="Refresh">Aktualisieren</string>
+    <string name="Search_User">Suche Nutzer</string>
+    <string name="Tellist">Telefonliste</string>
+    <string name="overflow">menue</string>
+    <string name="new_User">Neuer Nutzer</string>
+    <string name="new_Entry">Neuer Eintrag</string>
+    <string name="logIn">Einloggen</string>
+    <string name="logOut">Ausloggen</string>
+    <string name="settings">Einstellungen</string>
+    <string name="cleanDB">Daten Löschen</string>
+    <string name="chat">Chat</string>
+    <string name="chatuser">Online Liste</string>
+    <string name="disconnect">Verbindung Beenden</string>
+
+</resources>

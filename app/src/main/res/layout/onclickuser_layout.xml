@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anrufen Festnetz"
+        android:id="@+id/kontaktanrufenfestnetz" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Anrufen Mobil"
+        android:id="@+id/kontaktanrufenmobil" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-Mail schreiben"
+        android:id="@+id/kontaktemail" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zu Kontakten hinzufügen"
+        android:id="@+id/kontakthinzufügen" />
+</LinearLayout>

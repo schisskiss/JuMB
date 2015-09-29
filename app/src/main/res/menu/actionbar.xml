@@ -1,0 +1,47 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:jumb="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/SearchUser"
+          android:icon="@drawable/ic_action_search"
+          android:title="@string/Search_User"
+          jumb:showAsAction="always"/>
+
+   	<item android:id="@+id/TelList"
+   	      android:icon="@drawable/ic_action_user"
+   	      android:title="@string/Tellist"
+          jumb:showAsAction="always"/>
+
+    <item android:id="@+id/Chat"
+        android:icon="@drawable/ic_action_chat"
+        android:title="@string/chat"
+        jumb:showAsAction="always"/>
+
+    <item android:id="@+id/expanded_menu"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="menu"
+        jumb:showAsAction="always">
+
+        <menu>
+            <item android:id="@+id/AddUser"
+                android:icon="@drawable/ic_action_user_add"
+                android:title="@string/new_User"/>
+
+            <item android:id="@+id/AddEntry"
+                android:icon="@drawable/ic_action_share"
+                android:title="@string/new_Entry"/>
+
+            <item android:id="@+id/Log_In"
+                android:icon="@drawable/ic_action_secure"
+                android:title="@string/logIn"/>
+
+            <item android:id="@+id/Log_Out"
+                android:icon="@drawable/ic_action_not_secure"
+                android:title="@string/logOut"/>
+
+            <item android:id="@+id/settings"
+                android:icon="@drawable/ic_action_settings"
+                android:title="@string/settings"/>
+        </menu>
+
+    </item>
+</menu>

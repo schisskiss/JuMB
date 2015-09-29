@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent">
+    
+    
+    
+    
+    <TextView
+        android:id="@+id/tvorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vorname:"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/VVorname"
+        android:gravity="right"
+        android:paddingRight="10dp"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    
+    
+ 	<TextView
+        android:id="@+id/tnachname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvorname"
+        android:text="Nachname:"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/VNachname"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_below="@+id/tvorname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    
+    
+    
+ 	<TextView
+        android:id="@+id/tStrasse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tnachname"
+        android:text="Straße:"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+ 	
+    <TextView
+        android:id="@+id/VStrasse"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_below="@+id/tnachname"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    
+    <TextView
+        android:id="@+id/tPlz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tStrasse"
+        android:text="Plz:"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/VPlz"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:layout_below="@+id/VStrasse"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+
+    <TextView
+        android:id="@+id/tOrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tPlz"
+        android:text="Ort:"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/VOrt"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:layout_below="@+id/VPlz"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    
+    <TextView
+        android:id="@+id/tFestnetz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tOrt"
+        android:text="Festnetz:"
+       android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/VFestnetz"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:layout_below="@+id/VOrt"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+     <TextView
+        android:id="@+id/tMobil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tFestnetz"
+        android:text="Mobil:"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/VMobil"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:layout_below="@+id/VFestnetz"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    
+    <TextView
+        android:id="@+id/tEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tMobil"
+        android:text="E-Mail:"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/VEmail"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:layout_below="@+id/VMobil"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+
+    <TextView
+        android:id="@+id/tGeburtsdatum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tEmail"
+        android:text="Geburtsdatum:"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:id="@+id/VGeburtsdatum"
+        android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+        android:layout_below="@+id/VEmail"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+    
+    
+    
+</RelativeLayout>

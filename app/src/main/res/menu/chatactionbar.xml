@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:jumb="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Userlist"
+        android:icon="@drawable/ic_action_user"
+        android:title="@string/chatuser"
+        jumb:showAsAction="always"/>
+
+    <item android:id="@+id/disconnect"
+        android:icon="@drawable/ic_action_cancel"
+        android:title="@string/disconnect"
+        jumb:showAsAction="always"/>
+
+
+</menu>

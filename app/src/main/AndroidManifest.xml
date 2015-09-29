@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jumb.myapplab.pascal.jumb" >
+
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".SearchUser"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".onClickUser"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:label="JuMB Kontakt:">
+        </activity>
+
+        <activity
+            android:name=".TelList"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".eMailSenden"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".AddUser"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+
+        <activity
+            android:name=".AddEntry"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+
+        <activity
+            android:name=".ShowItem"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+
+        <activity
+            android:name=".SearchEntries"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+        </activity>
+
+
+        <activity
+            android:name=".account"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            android:label="@string/app_name">
+        </activity>
+
+
+
+        <activity
+            android:name=".settings"
+            android:theme="@style/Theme.AppCompat.Dialog">
+        </activity>
+
+        <activity
+            android:name=".userlist"
+            android:label="Private Nachricht an:"
+            android:theme="@style/Theme.AppCompat.Dialog">
+        </activity>
+
+        <activity
+            android:name=".updateUser"
+            android:theme="@style/AppTheme">
+        </activity>
+
+        <activity
+            android:name=".chat"
+            android:theme="@style/AppTheme"
+            android:launchMode="singleTop">
+        </activity>
+
+        <service
+            android:name=".MyService"
+            android:launchMode="singleTop"/>
+
+        <service
+            android:name=".chatService"
+            android:launchMode="singleTop"/>
+
+            <receiver
+                android:name=".MyWidgetProvider"
+                android:label="JuMB_4x1" >
+
+                <intent-filter >
+                    <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                </intent-filter>
+
+                <meta-data
+                    android:name="android.appwidget.provider"
+                    android:resource="@xml/widget_info" />
+            </receiver>
+
+
+
+            <receiver
+                android:name=".MyWidgetProvider1"
+                android:label="JuMB_4x2">
+
+                <intent-filter >
+                    <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                </intent-filter>
+
+                <meta-data
+                    android:name="android.appwidget.provider"
+                    android:resource="@xml/widget_info1" />
+            </receiver>
+
+    </application>
+
+</manifest>

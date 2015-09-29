@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/uvorname"
+        android:hint="Vorname"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/unachname"
+        android:hint="Nachname"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/uplz"
+        android:hint="Plz"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/uort"
+        android:hint="Ort"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/ustrasse"
+        android:hint="Straße"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/ufestnetz"
+        android:hint="Festnetz"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/umobil"
+        android:hint="Mobil"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/uemail"
+        android:hint="E-Mail"
+        android:textColorHint="#666666"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:id="@+id/ugeburtsdatum"
+        android:hint="Geburtsdatum"
+        android:textColorHint="#666666"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:id="@+id/update"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abbrechen"
+        android:id="@+id/cancel"
+        android:clickable="true" />
+</LinearLayout>
